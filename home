@@ -25,7 +25,7 @@
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1466691829000/bg-1.jpg)" class="banner_image_div">
+                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000/image/jpeg/1478198391000/VirginiaGateway_HomePageBanner(1).jpg)" class="banner_image_div">
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
                     </a>
                 </div>
