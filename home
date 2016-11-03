@@ -30,12 +30,7 @@
                     </a>
                 </div>
             </li>
-             <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000/image/jpeg/1478198391000/VirginiaGateway_HomePageBanners.jpg)" class="banner_image_div">
-                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                    </a>
-                </div>
-            </li>
+             
         </script>
     </ul>
 </div>
@@ -99,7 +94,7 @@
                 } 
             });
             if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
+                renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,1));
             }
             show_content();
             
