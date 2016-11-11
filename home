@@ -94,7 +94,7 @@
             var feature_items = getFeatureList();
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderBanner('#banner_template','#home_banner',banners);
-            renderMobileBanners('#mobile_banner_template', '#mobile_banner', mobile_banners);
+            // renderMobileBanners('#mobile_banner_template', '#mobile_banner', mobile_banners);
             renderFeatureItems('#feature_container','#feature_template', feature_items);
             var published_promos = [];
             $.each( promotions , function( key, val ){
