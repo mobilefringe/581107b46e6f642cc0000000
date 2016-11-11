@@ -1094,7 +1094,7 @@ body{
     .mobile_banner{
         position:relative;
         margin-bottom:20px;
-        img{
+        .banner_image_li {
             height: calc(100vh - 77px);
             min-width: 100%;
         }
