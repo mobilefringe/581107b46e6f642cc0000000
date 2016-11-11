@@ -22,18 +22,16 @@
 
 <div class="content_container hidden_phone">
     <div class="flexslider">
-    <ul class="slides" id="home_banner">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000/image/jpeg/1478198391000/VirginiaGateway_HomePageBanner.jpg)" class="banner_image_div">
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}" />
                     </a>
-                </div>
-            </li>
-             
-        </script>
-    </ul>
-</div>
+                </li>
+            </script>
+        </ul>
+    </div>
 </div>
 <div class="content_container main_container hidden_phone">
     <div class="feature_row" id="feature_container">
