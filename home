@@ -90,7 +90,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            var mobile_banners = getRepoDetailsByName("Mobile Banner");
+            var mobile_banners = getRepoDetailsByName("Mobile Banner".images);
             console.log(mobile_banners);
             var feature_items = getFeatureList();
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
