@@ -11,7 +11,6 @@
 </div>
 
 <div class="show_phone mobile_banner">
-    <!--<img src="//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000/image/jpeg/1478198387000/VirginiaGateway_MobileHomePage.jpg" class="" alt="banner">-->
     <div class="flexslider">
         <ul class="slides" id="mobile_banner">
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
@@ -91,7 +90,6 @@
         function renderAll(){
             var banners = getBanners();
             var mobile_banners = getRepoDetailsByName("Mobile Banner");
-            console.log(mobile_banners);
             var feature_items = getFeatureList();
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderBanner('#banner_template','#home_banner',banners);
