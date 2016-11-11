@@ -35,7 +35,7 @@ function renderBanner(banner_template, home_banner, banners){
     $(home_banner).html(item_rendered.join(''));
 }
 
-function renderBanner(mobile_banner_template, mobile_banner, mobile_banners){
+function renderMobileBanner(mobile_banner_template, mobile_banner, mobile_banners){
     var item_list = [];
     var item_rendered = [];
     var mobile_template_html = $(mobile_banner_template).html();
