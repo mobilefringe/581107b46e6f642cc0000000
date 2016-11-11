@@ -17,7 +17,7 @@
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        <img src="{{image_url}}"  class="{{gif_class}}" />
+                        <img src="{{photo_url}}"  class="{{gif_class}}" />
                     </a>
                 </li>
             </script>
