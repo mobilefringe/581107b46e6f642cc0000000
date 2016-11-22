@@ -1291,11 +1291,11 @@ body{
         letter-spacing: 0.29px;
         text-align: center;
         font-size: 16px;
-        // border-top: 1px solid #000000;
-        // border-bottom: 1px solid #000000;
-        // padding: 15px 0;
-        // text-transform: uppercase;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        padding: 15px 0;
     }
+    
     .feature_item {
         // padding-left: 10px;
         // padding-right: 10px;
