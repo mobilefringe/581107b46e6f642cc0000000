@@ -45,7 +45,8 @@
 <div class="content_container main_container hidden_phone">
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
-            
+            <div class="feature_item_container">
+                <p class="feature_title">{{name}}</p>
                 <div class="feature_item wow animated flipInX animated">
                     <a href="{{url}}">
                         <figure style="background-image:url('{{image_url}}')">
@@ -55,7 +56,7 @@
                         </figure>
                     </a>
                 </div>
-            
+            </div>
         </script>
     </div>
     <!--<div class="promotions">-->
