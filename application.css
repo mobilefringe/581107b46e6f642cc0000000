@@ -1278,13 +1278,32 @@ body{
         }
     }
     
-    .feature_item {
+    .feature_item_container {
         padding-left: 10px;
         padding-right: 10px;
         float: left;
-        width: 33.33333333%;
+        width: 33.33333333%; 
+    }
+    
+    .feature_title {
+        font-weight: bold;
+        color: #5f574b;
+        letter-spacing: 0.29px;
+        text-align: center;
+        font-size: 16px;
+        // border-top: 1px solid #000000;
+        // border-bottom: 1px solid #000000;
+        // padding: 15px 0;
+        // text-transform: uppercase;
+    }
+    .feature_item {
+        // padding-left: 10px;
+        // padding-right: 10px;
+        // float: left;
+        // width: 33.33333333%;
         max-height:300px;
         overflow:hidden;
+        width: 100%;
     }
     
     .promotion_item {
