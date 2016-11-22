@@ -112,6 +112,7 @@
             
             $('.flexslider').flexslider({
                 animation: "slide",
+                allowOneSlide: false,
             });
             renderSitePopup();
         }
