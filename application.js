@@ -124,7 +124,7 @@ function renderEvents(container, template, collection){
         else{
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
-            val.image_logo = site_json.default_image
+            val.image_logo = site_json.default_image;
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
