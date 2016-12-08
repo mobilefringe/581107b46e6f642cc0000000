@@ -123,7 +123,7 @@ function renderEvents(container, template, collection){
         }
         else{
             val.store_name = site_json.mall_name;
-            // val.image_url = site_json.default_image;
+            val.image_url = site_json.default_image;
             val.image_logo = val.image_url;
         }
         
