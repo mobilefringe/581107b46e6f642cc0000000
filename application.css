@@ -809,6 +809,10 @@ body{
     }
 }
 
+.side_image {
+    width: 293px;
+    height: 293px;
+}
 .side_stores{
     background:#F5F5F5;
     padding: 30px 10px;
