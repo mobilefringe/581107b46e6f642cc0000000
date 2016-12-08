@@ -124,9 +124,9 @@ function renderEvents(container, template, collection){
         else{
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
-            if(val.logo_url.indexOf('missing.png') > 0){
-                val.logo_url = site_json.default_image;
-            }
+            // if(val.logo_url.indexOf('missing.png') > 0){
+            //     val.logo_url = site_json.default_image;
+            // }
             
         }
         
