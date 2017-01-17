@@ -192,7 +192,7 @@
                                 <li><a href="/jobs">Jobs</a></li>
                                 <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/about_us">About Us</a></li>
-                                <li><a href="http://www.petersoncos.com/" target="_blank">The Peterson Co.</a></li>
+                                <li><a href="/pages/vagateway-terms-of-website-use" target="_blank">The Peterson Co.</a></li>
                                 <li><a href=" http://www.vagateway.com/pages/vagateway-privacy-policy" target="_blank">Privacy Policy</a></li>
                             </ul>
                         </div>
@@ -200,7 +200,7 @@
                 </div>
                 <div class="col-md-4">
                     <h4 class="site_map_heading">© 2016 - VIRGINIA GATEWAY</h4>
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt="">
+                    <a href="http://www.petersoncos.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt=""></a>
                     <p class="rights_reserved">
                         All Rights Reserved
                         <br />
