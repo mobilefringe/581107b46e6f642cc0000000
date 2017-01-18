@@ -67,9 +67,9 @@
         $('#contest_form').submit(function(e){
             e.preventDefault();
             if ($("#agree_terms").prop("checked") != true){
-                alert("Please agree with Terms and Conditions to continue.");
-                $("#agree_terms").focus();
-                return false;
+                // alert("Please agree with Terms and Conditions to continue.");
+                // $("#agree_terms").focus();
+                // return false;
             }
             else{
                 $('#submit_btn').prop( "disabled", true );
