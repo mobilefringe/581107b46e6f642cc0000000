@@ -69,7 +69,7 @@
             if ($("#agree_terms").prop("checked") != false){
                 alert("Please agree with Terms and Conditions to continue.");
                 $("#agree_terms").focus();
-                return false;
+                return true;
             }
             else{
                 $('#submit_btn').prop( "disabled", true );
