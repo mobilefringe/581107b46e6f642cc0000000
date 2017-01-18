@@ -80,7 +80,7 @@
                     form_data[site_json.newsletter_email_field] = $('#email').val();
                     $.getJSON(site_json.newsletter_form_url, form_data);
                 }
-            }
+            // }
             
         })
     }
