@@ -66,10 +66,10 @@
         show_content();
         $('#contest_form').submit(function(e){
             e.preventDefault();
-            if ($("#agree_terms").prop("checked") != false){
+            if ($("#agree_terms").prop("unchecked") != true){
                 alert("Please agree with Terms and Conditions to continue.");
                 $("#agree_terms").focus();
-                return true;
+                return false;
             }
             else{
                 $('#submit_btn').prop( "disabled", true );
