@@ -7,7 +7,7 @@
                 <script id="contest_template" type="x-tmpl-mustache/text">
                     <img alt="contest image" class="details_image" src="{{alt_photo_url}}" />
                     <p class="promo_list_name">{{name}}</p>
-                    <div class="details_desc">{{{description}}}</div>
+                    <div class="details_desc">{{{rich_description}}}</div>
                     <form id="contest_form">
                         <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
                         <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
