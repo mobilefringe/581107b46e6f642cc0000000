@@ -34,7 +34,12 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                               
+                                <label>
+                                    <input type="checkbox" id="agree_terms" /> I agree with <a class="blue" href="#" target="_blank">Terms and Conditions</a>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="add_to_newsletter" name="contest[newsletter]" /> Yes, subscribe me to your email list to receive promotions and events!
+                                </label>
                                 <button type="submit" class="newsletter_btn animated_btn" id="submit_btn">Submit</button>
                                 <p id="success_subscribe" class="hidden_now">Thank you for entering in the contest</p>
                             </div>
@@ -66,12 +71,12 @@
         show_content();
         $('#contest_form').submit(function(e){
             e.preventDefault();
-            // if ($("#agree_terms").prop("checked") != true){
-            //     // alert("Please agree with Terms and Conditions to continue.");
-            //     // $("#agree_terms").focus();
-            //     // return false;
-            // }
-            // else{
+            if ($("#agree_terms").prop("checked") != true){
+                alert("Please agree with Terms and Conditions to continue.");
+                $("#agree_terms").focus();
+                return false;
+            }
+            else{
                 $('#submit_btn').prop( "disabled", true );
                 submit_contest($(this).serialize());
                 if ($("#add_to_newsletter").prop("checked")){
@@ -80,7 +85,7 @@
                     form_data[site_json.newsletter_email_field] = $('#email').val();
                     $.getJSON(site_json.newsletter_form_url, form_data);
                 }
-            // }
+            }
             
         })
     }
