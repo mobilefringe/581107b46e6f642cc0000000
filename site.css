@@ -10,3 +10,8 @@
     margin-top: 16px;
     color: transparent;
 }
+
+.pp_img_bg{
+    position: absolute;
+    top: 0;
+}
