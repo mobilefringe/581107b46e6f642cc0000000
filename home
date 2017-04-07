@@ -4,7 +4,7 @@
            <i class="popup-close fa fa-close"></i>
         </div>
         <div class="popup-body">
-            <img src="" class="popup-close" />
+            <img src="" class="popup-close-form" />
             <div class="newsletter-form">
                 <h3>GET OUR UPDATES</h3>
                 <p>Sign up and <b>be the first to know</b> about special offers, property events, promotions and new store openings — we'll bring it all to you.</p>
