@@ -23,7 +23,8 @@
                         <br /><br />
                         <em>* Required</em><br />
                         <em>By signing up, you agree to receive email updates.</em>
-                        <br />                        <p id="success_subscribe">Thank you for subscribing.</p>
+                        <br />
+                        <p id="success_subscribe">Thank you for subscribing.</p>
                     </div>
                 </form>
             </div>
