@@ -320,7 +320,7 @@ function renderSitePopup(){
     var pp = getPopups()[0];
     if (pp != undefined){
         log(pp.contest)
-        if (pp.contest.length > 0){
+        if (pp.contest.name.length > 0){
             $('.popup-body').append('<img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">')
         }
         else{
