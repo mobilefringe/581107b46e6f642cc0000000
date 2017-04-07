@@ -9,18 +9,14 @@
                 <p>Sign up and <b>be the first to know</b> about special offers, property events, promotions and new store openings — we'll bring it all to you.</p>
                 <form action="http://mobilefringe.createsend.com/t/d/s/bitjjd/" method="post" id="">
                     <div class="row">
-                        <div class="col-md-8 text-center" style=" float: none; margin: 0 auto; ">
-                            <div class="row">
-                                <div class="col-md-12 text-left">
-                                    <label class="text-left" for="fieldName">Name</label>
-                                    <input id="fieldName" name="cm-name" type="text" class="form-control">
-                                </div>
-                            
-                                <div class="col-md-12 text-left">
-                                    <label class="text-left" for="fieldEmail">Email</label>
-                                    <input id="fieldEmail" name="cm-bitjjd-bitjjd" type="email" required class="form-control">
-                                </div>
-                            </div>
+                        <div class="col-md-12 text-left">
+                            <label class="text-left" for="fieldName">Name</label>
+                            <input id="fieldName" name="cm-name" type="text" class="form-control">
+                        </div>
+                    
+                        <div class="col-md-12 text-left">
+                            <label class="text-left" for="fieldEmail">Email</label>
+                            <input id="fieldEmail" name="cm-bitjjd-bitjjd" type="email" required class="form-control">
                         </div>
                     </div>
                 </form>
