@@ -357,13 +357,7 @@ function renderSitePopup(){
         }
         
         
-        $(".hidden-popup-bg").click(function(event){
-            if( !$( event.target).is('.hidden-popup-form') ) {
-                close_popup();
-            } else {
-                event.stopPropagation();
-            }
-        });
+        
         
         $(".hidden-popup-bg .hidden-popup-form").click(function(event){
             event.stopPropagation();
