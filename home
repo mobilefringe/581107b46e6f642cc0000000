@@ -13,7 +13,7 @@
                             <label class="text-left" for="fieldEmail">Email*</label>
                             <input id="fieldEmail" name="cm-bitjjd-bitjjd" type="email" required class="form-control">
                             <br />
-                            <label for="fieldohjirh">zip code</label><br />
+                            <label for="fieldohjirh">zip code</label>
                             <input id="fieldohjirh" name="cm-f-ohjirh" type="text" />
                         </div>
                     </div>
