@@ -317,39 +317,7 @@ function submit_contest(data) {
 
 
 function renderSitePopup(){
-    var pp = getPopups()[0];
-    if (pp != undefined){
-        if (pp.contest.name.length > 0){
-            $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">')
-        }
-        else{
-            if (pp.photo_link.length > 0){
-                $('.popup-body').html('<a id="pp_url" href="' + pp.photo_link +'"><img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up"></a>')
-            }
-            else{
-                
-            }
-        }
     
-        if(true){
-            $.cookie("popup_viewed", "true", { expires: 1 });
-           $(".hidden-popup-bg").show();
-           $('body').addClass('no_scroll');
-        }
-        
-        
-        $(".hidden-popup-bg").click(function(event){
-            if( !$( event.target).is('.hidden-popup-form') ) {
-                close_popup();
-            } else {
-                event.stopPropagation();
-            }
-        });
-        
-        $(".hidden-popup-bg .hidden-popup-form").click(function(event){
-            event.stopPropagation();
-        }); 
-    }
 }
 function isInt(value) {
     return !isNaN(value) && parseInt(Number(value)) == value && !isNaN(parseInt(value, 10));
