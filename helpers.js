@@ -356,22 +356,7 @@ function renderSitePopup(){
 }
 
 
-$('#newsletter_form_pp').submit(function(e){
-    e.preventDefault();
-    $.getJSON(
-        this.action + "?callback=?",
-        $(this).serialize(),
-        function (data) {
-            if (data.Status === 400) {
-                alert("Please try again later.");
-            } else { // 200
-                $("#success_subscribe").fadeIn()
-                $('#success_subscribe').delay(2000).fadeOut();
-                $('#newsletter_form').trigger('reset')
-            }
-        }
-    );
-});
+
 function isInt(value) {
     return !isNaN(value) && parseInt(Number(value)) == value && !isNaN(parseInt(value, 10));
 }
