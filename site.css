@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'blanch';
+  src: url('//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000//1491595550000/Blanch-Caps.woff')
+}
+
+
 .feature_item figure figcaption .view_button{
     background: #D6EEFA;
     color:black;
