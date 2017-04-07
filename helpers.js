@@ -334,10 +334,10 @@ function renderSitePopup(){
             }
         }
     
-        if(true){
+        if($.cookie("popup_viewed") == "true" ){
             $.cookie("popup_viewed", "true", { expires: 1 });
-           $(".hidden-popup-bg").show();
-           $('body').addClass('no_scroll');
+            $(".hidden-popup-bg").show();
+            $('body').addClass('no_scroll');
         }
         
         
