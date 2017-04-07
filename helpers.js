@@ -352,7 +352,7 @@ function renderSitePopup(){
         }
     
         if(!popup_viewed ){
-            $.cookie("popup_viewed", "true", { expires: 1 });
+            popup_viewed = true;
             $(".hidden-popup-bg").show();
             $('body').addClass('no_scroll');
         }
