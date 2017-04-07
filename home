@@ -24,7 +24,7 @@
                         <em>* Required</em><br />
                         <em>By signing up, you agree to receive email updates.</em>
                         <br />
-                        <p id="success_subscribe" class="hidden_now>Thank you for subscribing.</p>
+                        <p id="success_subscribe" class="hidden_now">Thank you for subscribing.</p>
                     </div>
                 </form>
             </div>
