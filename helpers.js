@@ -320,7 +320,7 @@ function renderSitePopup(){
     var pp = getPopups()[0];
     if (pp != undefined){
         if (pp.contest.length > 0){
-            $('.popup-body').html('<img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">')
+            $('.popup-body').append('<img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">')
         }
         else{
             if (pp.photo_link.length > 0){
