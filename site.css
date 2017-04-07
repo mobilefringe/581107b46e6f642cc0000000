@@ -70,6 +70,10 @@
     padding: 0px 20px;
 }
 
+.popup-close-form{
+    z-index:9;
+}
+
 
 
 
