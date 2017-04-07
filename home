@@ -17,7 +17,9 @@
                             <input id="fieldohjirh" name="cm-f-ohjirh" type="text" class="form-control" /> <br />
                         </div>
                     </div>
-                    <button type="submit" class="animated_btn main_btn">Subscribe</button>
+                    <div class="text-center">
+                        <button type="submit" class="animated_btn main_btn">Subscribe</button>
+                    </div>
                 </form>
             </div>
         </div>
