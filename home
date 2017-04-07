@@ -4,7 +4,10 @@
            <i class="popup-close fa fa-close"></i>
         </div>
         <div class="popup-body">
-            
+            <div class="newsletter-form">
+                <h3>GET OUR UPDATES</h3>
+                <p>Sign up and be the first to know about special offers, property events, promotions and new store openings — we'lll bring it ll to you.</p>
+            </div>
         </div>
    </div>
 </div>
