@@ -335,7 +335,7 @@ function renderSitePopup(){
                         } else { // 200
                             $("#success_subscribe").fadeIn()
                             $('#success_subscribe').delay(2000).fadeOut();
-                            $('#newsletter_form').trigger('reset')
+                            $('#newsletter_form_pp').trigger('reset')
                         }
                     }
                 );
