@@ -356,7 +356,7 @@ function renderSitePopup(){
 }
 
 
-$('#newsletter_form').submit(function(e){
+$('#newsletter_form_pp').submit(function(e){
     e.preventDefault();
     $.getJSON(
         this.action + "?callback=?",
