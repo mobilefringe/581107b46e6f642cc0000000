@@ -350,7 +350,7 @@ function renderSitePopup(){
             }
         }
     
-        if($.cookie("popup_viewed") == "false" ){
+        if(true ){
             $.cookie("popup_viewed", "true", { expires: 1 });
             $(".hidden-popup-bg").show();
             $('body').addClass('no_scroll');
