@@ -351,8 +351,8 @@ function renderSitePopup(){
             }
         }
     
-        if(!popup_viewed ){
-            popup_viewed = true;
+        if(true ){
+            $.cookie("popup_viewed", "true", { expires: 1 });
             $(".hidden-popup-bg").show();
             $('body').addClass('no_scroll');
         }
