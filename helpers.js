@@ -333,7 +333,7 @@ function renderSitePopup(){
                 $('.popup-body').html('<a id="pp_url" href="' + pp.photo_link +'"><img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up"></a>')
             }
             else{
-                
+                $('.popup-body').html('<img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">')
             }
         }
     
