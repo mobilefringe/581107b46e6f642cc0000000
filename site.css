@@ -4,6 +4,12 @@
 }
 
 
+@font-face {
+  font-family: 'sentinel';
+  src: url('http://assets.codecloudapp.com/sites/581107b46e6f642cc0000000//1491596150000/Sentinel-Book.woff')
+}
+
+
 .feature_item figure figcaption .view_button{
     background: #D6EEFA;
     color:black;
