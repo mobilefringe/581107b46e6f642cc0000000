@@ -14,7 +14,7 @@
                             <input id="fieldEmail" name="cm-bitjjd-bitjjd" type="email" required class="form-control">
                             <br />
                             <label for="fieldohjirh">zip code</label>
-                            <input id="fieldohjirh" name="cm-f-ohjirh" type="text" />
+                            <input id="fieldohjirh" name="cm-f-ohjirh" type="text" class="form-control" />
                         </div>
                     </div>
                 </form>
