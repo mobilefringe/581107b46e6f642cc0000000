@@ -350,20 +350,14 @@ function renderSitePopup(){
             }
         }
     
-        if(true ){
+        if($.cookie("popup_viewed") == "false" ){
             $.cookie("popup_viewed", "true", { expires: 1 });
             $(".hidden-popup-bg").show();
             $('body').addClass('no_scroll');
         }
         
         
-        $(".hidden-popup-bg").click(function(event){
-            if( !$( event.target).is('.hidden-popup-form') ) {
-                close_popup();
-            } else {
-                event.stopPropagation();
-            }
-        });
+        
         
         $(".hidden-popup-bg .hidden-popup-form").click(function(event){
             event.stopPropagation();
