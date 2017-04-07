@@ -320,7 +320,10 @@ function renderSitePopup(){
     var pp = getPopups()[0];
     if (pp != undefined){
         if (pp.contest.name.length > 0){
-            $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">')
+            $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">');
+            $('.popup-close-form').click(function(){
+                $('.popup-close').click();
+            })
         }
         else{
             if (pp.photo_link.length > 0){
