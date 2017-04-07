@@ -19,7 +19,8 @@
                     </div>
                     <div class="text-center">
                         <button type="submit" class="animated_btn main_btn">Subscribe</button>
-                        <em>* Required</em>
+                        <br />
+                        <em>* Required</em><br />
                         <em>By signing up, you agree to receive email updates.</em>
                     </div>
                 </form>
