@@ -16,8 +16,8 @@
                             <label for="fieldohjirh">Zip</label>
                             <input id="fieldohjirh" name="cm-f-ohjirh" type="text" class="form-control" /> <br />
                         </div>
-                        <button type="submit" class="animated_btn main_btn">Subscribe</button>
                     </div>
+                    <button type="submit" class="animated_btn main_btn">Subscribe</button>
                 </form>
             </div>
         </div>
