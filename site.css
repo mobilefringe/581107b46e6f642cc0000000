@@ -20,6 +20,10 @@
     color:black;
 }
 
+.hidden-popup-form{
+    width:650px;
+}
+
 .popup-close{
     width: 30px;
     height: 30px;
