@@ -29,4 +29,10 @@
     left: 90px;
     top: 90px;
     max-width: 40%;
+    
+    h3{
+        font-family: blanch;
+        font-size:24px;
+        color: blue;
+    }
 }
