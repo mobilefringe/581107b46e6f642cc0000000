@@ -1,7 +1,7 @@
 <div class="hidden-popup-bg">
     <div class="hidden-popup-form">
         <div class="popup-header">
-           <i class="popup-close fa fa-close pull-left"></i>
+           <i class="popup-close fa fa-close"></i>
         </div>
         <div class="popup-body">
             <div class="newsletter-form">
