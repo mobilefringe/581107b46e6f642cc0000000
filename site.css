@@ -22,6 +22,8 @@
 
 .hidden-popup-form{
     width:650px;
+    height:80%;
+    overflow:scroll;
 }
 
 .popup-close{
