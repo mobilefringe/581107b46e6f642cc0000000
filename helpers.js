@@ -332,9 +332,7 @@ function renderSitePopup(){
                     function (data) {
                         if (data.Status === 400) {
                             alert("Please try again later.");
-                        } else { // 200
-                            $("#success_subscribe").fadeIn()
-                            $('#success_subscribe').delay(2000).fadeOut();
+                        } else { // 200;
                             $('#newsletter_form_pp').trigger('reset')
                         }
                     }
