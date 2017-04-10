@@ -357,7 +357,7 @@ function renderSitePopup(){
         
         $(".hidden-popup-bg").click(function(event){
             if( !$( event.target).is('.hidden-popup-form') ) {
-                close_popup();
+                $(".hidden-popup-bg").fadeOut();
             } else {
                 event.stopPropagation();
             }
