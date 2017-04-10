@@ -332,7 +332,8 @@ function renderSitePopup(){
                     function (data) {
                         if (data.Status === 400) {
                             alert("Please try again later.");
-                        } else { // 200;
+                        } else { // 200
+                            $("#success_subscribe").fadeIn();
                             $('#newsletter_form_pp').trigger('reset')
                         }
                     }
