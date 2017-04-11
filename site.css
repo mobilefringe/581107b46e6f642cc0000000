@@ -23,7 +23,6 @@
 .hidden-popup-form{
     width:650px;
     max-height: 80%;
-    overflow-y: scroll;
     height: initial;
 }
 
