@@ -321,7 +321,7 @@ function renderSitePopup(){
     if (pp != undefined){
         if (pp.contest.name != undefined && pp.contest.name.length > 0){
             $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="http://cdn.mallmaverick.com' + pp.photo_url + '" alt="pop up">');
-            $('.hidden-popup-form').css('height', '750px')
+            $('.hidden-popup-form').css('height', '600px')
             $('.popup-close-form').click(function(){
                 $('.popup-close').click();
             });
