@@ -21,6 +21,7 @@
 }
 
 .hidden-popup-form{
+    margin:5% auto;
     width:650px;
     max-height: 80%;
     height: initial;
