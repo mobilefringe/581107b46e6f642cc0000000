@@ -1,0 +1,41 @@
+<div class="content_container main_container">
+    <h4 class="promo_main_header">
+        <a href="/promotions">&lt; back</a>
+    </h4>
+    <div class="row" id="promo_details_container">
+        <script id="promo_details_template" type="x-tmpl-mustache/text">
+            <div class="col-md-8">
+                <img src="{{image_url}}" style="{{promo_image_show}}" alt="Store Logo" class="details_image" />
+                <h2 class="promo_list_name">{{name}}</h2>
+               
+                <p class="show_phone"><a href="/stores/{{store_slug}}" style="{{store_show}}" class="read_more">View Store Details</a></p>
+                <div class="details_desc">{{{rich_description}}}</div>
+            </div>
+            <div class="col-md-4 hidden_phone">
+                <div class="side_image">
+                    <img src="{{store_image}}" style="{{image_show}}" alt="Store Logo" class="details_image" />
+                </div>
+                <div class="side_stores" style="{{show_box}}">
+                    <a class="hover_underline" style="{{store_show}}" href="/stores/{{store_slug}}">View Store Info</a>
+                    <br />
+                    <a class="hover_underline" href="tel:{{phone}}" style="{{phone_show}}">{{phone}}</a>
+                    <br style="{{phone_show}}" />
+                    <a class="hover_underline" href="//{{website}}" target="_blank" style="{{show}}">Visit Website</a>
+                </div>
+            </div>
+        </script>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e)
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            promo_details = getPromotionDetailsBySlug(slug);
+            renderPromoDetails('#promo_details_container', '#promo_details_template', promo_details)
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
