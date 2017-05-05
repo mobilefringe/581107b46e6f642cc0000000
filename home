@@ -8,7 +8,7 @@
             <div class="newsletter-form">
                 <h3>GET OUR UPDATES</h3>
                 <p>Sign up and <b>be the first to know</b> about special offers, property events, promotions and new store openings — we'll bring it all to you.</p>
-                <form action="http://mobilefringe.createsend.com/t/d/s/bitjjd/" method="post" id="newsletter_form_pp">
+                <form action="//mobilefringe.createsend.com/t/d/s/bitjjd/" method="post" id="newsletter_form_pp">
                     <div class="row">
                         <div class="col-md-12 text-left">
                             <label class="text-left" for="fieldEmail">Email*</label>
