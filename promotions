@@ -46,10 +46,18 @@
         function renderAll (){
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             var categories = getStoreCategories();
-            renderGeneral('#category_container', '#category_template', categories);
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            var category_list = [];
+            $.each( categories, function( key, val ){
+                if (val.store_ids != null) {
+                    category_list.push(val);
+                } 
+            });
+            renderGeneral('#category_container', '#category_template', category_list);
+            renderGeneral('#mobile_cat_list', '#category_template2', category_list);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
-            show_cat_stores()
+            
+            show_cat_stores();
+            
             var published_promos = [];
             $.each( promotions , function( key, val ){
                 today = moment();
@@ -63,9 +71,10 @@
             } else {
                 $('#no_promos').show()
             }
+            
             show_content();
         }
         
 		loadMallDataCached(renderAll); 
-    })
+    });
 </script>
