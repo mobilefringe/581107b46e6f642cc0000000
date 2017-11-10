@@ -34,9 +34,11 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <label>
-                                    <input type="checkbox" id="agree_terms" /> I agree with <a class="blue" href="#" target="_blank">Terms and Conditions</a>
-                                </label>
+                                <div>
+                                    <label>
+                                        <input type="checkbox" id="agree_terms" /> I agree with <a class="blue" href="#" target="_blank">Terms and Conditions</a>
+                                    </label>
+                                </div>
                                 <label>
                                     <input type="checkbox" id="add_to_newsletter" name="contest[newsletter]" /> Yes, subscribe me to your email list to receive promotions and events!
                                 </label>
