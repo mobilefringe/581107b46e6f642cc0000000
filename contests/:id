@@ -75,12 +75,11 @@
         show_content();
         $('#contest_form').submit(function(e){
             e.preventDefault();
-            // if ($("#agree_terms").prop("checked") != true){
-            //     // alert("Please agree with Terms and Conditions to continue.");
-            //     // $("#agree_terms").focus();
-            //     // return false;
-            // }
-            // else{
+            if ($("#agree_terms").prop("checked") != true){
+                alert("Please agree with Terms and Conditions to continue.");
+                $("#agree_terms").focus();
+                return false;
+            } else {
                 $('#submit_btn').prop( "disabled", true );
                 submit_contest($(this).serialize());
                 if ($("#add_to_newsletter").prop("checked")){
@@ -89,8 +88,7 @@
                     form_data[site_json.newsletter_email_field] = $('#email').val();
                     $.getJSON(site_json.newsletter_form_url, form_data);
                 }
-            // }
-            
-        })
+            }
+        });
     }
 </script>
