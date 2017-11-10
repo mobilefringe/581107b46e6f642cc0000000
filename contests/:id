@@ -68,8 +68,7 @@
         var contestDetails = getContestBySlug(slug);
         if(contestDetails != undefined){
             renderContest('#contest_container','#contest_template', contestDetails);
-        }
-        else{
+        } else {
             $('#contest_ended').show();
         }
         show_content();
