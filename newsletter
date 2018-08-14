@@ -1,5 +1,5 @@
 <div class="content_container main_container">
-    <h4 class="promo_main_header">Newsletter</h3>
+    <h4 class="promo_main_header">Newsletter</h4>
     <script type="text/javascript" src="//app.icontact.com/icp/core/mycontacts/signup/designer/form/automatic?id=150&cid=1297083&lid=19913"></script>
 </div>
 
@@ -7,26 +7,26 @@
     $(document).ready(function(e){
         init(e);
         show_content()
-        $('#newsletter_form').submit(function(e){
-            e.preventDefault();
-            if ($("#newsletter_agree").prop("checked") != true){
-                alert("Please agree to receive newsletters from " + site_json.mall_name + "." );
-                $("#newsletter_agree").focus();
-                return false;
-            }
-            $.getJSON(
-                this.action + "?callback=?",
-                $(this).serialize(),
-                function (data) {
-                    if (data.Status === 400) {
-                        alert("Please try again later.");
-                    } else { // 200
-                        $("#success_subscribe").fadeIn()
-                        $('#success_subscribe').delay(2000).fadeOut();
-                        $('#newsletter_form').trigger('reset')
-                    }
-                }
-            );
-        });
+        // $('#newsletter_form').submit(function(e){
+        //     e.preventDefault();
+        //     if ($("#newsletter_agree").prop("checked") != true){
+        //         alert("Please agree to receive newsletters from " + site_json.mall_name + "." );
+        //         $("#newsletter_agree").focus();
+        //         return false;
+        //     }
+        //     $.getJSON(
+        //         this.action + "?callback=?",
+        //         $(this).serialize(),
+        //         function (data) {
+        //             if (data.Status === 400) {
+        //                 alert("Please try again later.");
+        //             } else { // 200
+        //                 $("#success_subscribe").fadeIn()
+        //                 $('#success_subscribe').delay(2000).fadeOut();
+        //                 $('#newsletter_form').trigger('reset')
+        //             }
+        //         }
+        //     );
+        // });
     })
 </script>
