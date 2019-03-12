@@ -11,22 +11,22 @@
                 <div class="col-md-12 property_right">
                     <h2 class="promo_list_name">Property Management</h2>
                     <div class="col-md-12">
-                        <a href="">Bridget Graves</a>
+                        Bridget Graves
                         <div class="contact_addresss promo_list_desc">
-                            Senior Property Manager<br/>bgraves@petersoncos.com<br/>703-227-0883
+                            Senior Property Manager<br/><a href="mailto:bgraves@petersoncos.com">bgraves@petersoncos.com</a><br/>703-227-0883
                         </div>
                         
                     </div>
                      <div class="col-md-12">
-                        <a href="">Tania Beale</a>
+                        Tania Beale
                         <div class="contact_addresss_last promo_list_desc">
-                            Property Manager<br/>tbeale@petersoncos.com<br/>703-631-7580 
+                            Property Manager<br/><a href="mailto:tbeale@petersoncos.com">tbeale@petersoncos.com</a><br/>703-631-7580 
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <a href="">Michelle Palumbo</a>
+                       Michelle Palumbo
                         <div class="contact_addresss promo_list_desc">
-                            Property Assistant<br/>mpalumbo@petersoncos.com<br/>703-653-8812
+                            Property Assistant<br/><a href="mailto:mpalumbo@petersoncos.com">mpalumbo@petersoncos.com</a><br/>703-653-8812
                         </div>
                     </div>
                    
