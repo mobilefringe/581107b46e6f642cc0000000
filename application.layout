@@ -75,14 +75,14 @@
                 <a href="https://www.facebook.com/pages/Virginia-Gateway/283283508519" target="_blank" aria-label="Facebook">
                     <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143423000/icon_facebook_white.png" class="" alt="FB">
                 </a>
-                <a href="https://twitter.com/VAGateway" target="_blank">
+                <a href="https://twitter.com/VAGateway" target="_blank" aria-label="Twitter">
                     <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143456000/icon_twitter_white.png" class="" alt="Twitter">
                 </a>
-                <a href="https://instagram.com/VAGateway" target="_blank">
+                <a href="https://instagram.com/VAGateway" target="_blank" aria-label="Instagram">
                     <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143478000/icon_insta_white.png" class="" alt="Instagram">
                 </a>
-                <a href="/newsletter" target="_blank">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" class="" alt="">
+                <a href="/newsletter" target="_blank" aria-label="Newsletter">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" class="" alt="Newsletter">
                 </a>
             </div>
         </div>
@@ -96,10 +96,10 @@
             <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
-                    <a class="social_fb" href="https://www.facebook.com/pages/Virginia-Gateway/283283508519" target="_blank"></a>
-                    <a class="social_twitter" href="https://twitter.com/VAGateway" target="_blank"></a>
-                    <a class="social_insta" href="https://instagram.com/VAGateway" target="_blank"></a>
-                    <a class="social_newsletter" href="/newsletter" target="_blank"></a>
+                    <a class="social_fb" href="https://www.facebook.com/pages/Virginia-Gateway/283283508519" target="_blank" aria-label="Facebook"></a>
+                    <a class="social_twitter" href="https://twitter.com/VAGateway" target="_blank" aria-label="Twitter"></a>
+                    <a class="social_insta" href="https://instagram.com/VAGateway" target="_blank" aria-label="Instagram"></a>
+                    <a class="social_newsletter" href="/newsletter" target="_blank" aria-label="Newsletter"></a>
                 </div>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
